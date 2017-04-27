@@ -7,7 +7,7 @@
 	</head>
 
 	<body>
-		<h1>PWP: Online Portfolio for Max Halleran</h1>
+		<h1>PWP Milestone 1: Online Portfolio for Max Halleran</h1>
 		<h2>Purpose, Audience, Goal</h2>
 		<h3>Purpose</h3>
 		<p>To display my brother Max Halleran's skills as a programmer as well as examples of his programming work on the
