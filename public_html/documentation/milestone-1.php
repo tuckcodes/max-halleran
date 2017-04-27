@@ -80,7 +80,7 @@
 			using his relatively new Macbook Pro to access the site and already likes the "smart look" that Max's portfolio
 			gives off. It is a site that is refreshing to come across in today's advertisement filled internet. He rarely
 			uses his mobile device to browse sites like Max's but will do it from time to time on his lunch break, which is
-			why a portfolio that is mobile friendly is also important to him and a factor in the decision process for a new
+			why a portfolio that is mobile friendly is also important to him and a factor in his decision process for a new
 			hire.</p>
 
 
