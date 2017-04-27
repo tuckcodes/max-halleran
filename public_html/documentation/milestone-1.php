@@ -14,7 +14,7 @@
 			internet in order to attract new clients and opportunities. </p>
 		<h3>Audience</h3>
 		<p>Visitors to this site will be primarily composed of fellow developers potentially looking to collaborate,
-			potential clients as well as other freelancers who might have a separate skill to collaborate with such as
+			potential clients, as well as other freelancers who might have a separate skill to collaborate with such as
 			graphic design or content writing.</p>
 		<h3>Goal</h3>
 		<p>To attract future clients and demonstrate offered skills in an attractive manner in order to obtain full,
