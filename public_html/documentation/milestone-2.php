@@ -18,5 +18,6 @@
 		<p>The purpose of this comtent is to give the visitor a clear respresentation of the focus and skills that Max has to offer as a developer.</p>
 		<h2>Wireframes</h2>
 		<img src ="images/Wirefram1PWP.png" alt="Wireframe 1"/>
+		<img src ="images/Wireframe2PWP.png" alt="Wireframe2"/>
 	</body>
 </html>
