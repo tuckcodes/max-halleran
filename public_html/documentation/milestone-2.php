@@ -17,6 +17,6 @@
 		<h3>Purpose of Content</h3>
 		<p>The purpose of this comtent is to give the visitor a clear respresentation of the focus and skills that Max has to offer as a developer.</p>
 		<h2>Wireframes</h2>
-		<img src ="images/Cruzada(11).png" alt="Wireframe 1"/>
+		<img src ="images/Wirefram1PWP.png" alt="Wireframe 1"/>
 	</body>
 </html>
