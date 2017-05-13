@@ -19,11 +19,17 @@
 		<h3>Purpose of Content</h3>
 		<p>The purpose of this content is to give the visitor a clear respresentation of the focus and skills that Max has to offer as a developer.</p>
 		<h2>Wireframes</h2>
+		<h3>One</h3>
 		<img src="images/Wirefram1PWP.png" alt="Wireframe 1"/>
+		<h3>Two</h3>
 		<img src="images/Wireframe2PWP.png" alt="Wireframe2"/>
+		<h3>Three</h3>
 		<img src="images/Wireframe3PWP.png" alt="Wireframe3"/>
+		<h3>Four</h3>
 		<img src="images/Wireframe4PWP.png" alt="Wireframe4"/>
+		<h3>Five</h3>
 		<img src="images/Wireframe5PWP.png" alt="Wireframe4"/>
+		<h3>Six</h3>
 		<img src="images/Wireframe6PWP.png" alt="Wireframe5"/>
 	</body>
 </html>
