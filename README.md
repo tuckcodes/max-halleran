@@ -36,3 +36,6 @@ Your Milestone 2&alpha; passes at [Tier IV](https://bootcamp-coders.cnm.edu/proj
 - Beware of spaces around your HTML attributes. This can prevent the browser from parsing them properly. For example:
 incorrect: `<html lang = "en">`
 correct: `<html lang="en">`
+
+## Milestone 2b Feedback
+Right now, given what you have I can only count this Miestone at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please check in with me daily re: your development progress. I am happy to bump this score up as you complete more work.
