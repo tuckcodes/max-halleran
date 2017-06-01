@@ -1,0 +1,10 @@
+.bg-image {
+	background: url(/public_html/IMG/pexels-photo-24377.jpg);
+	width: 2000px;
+	height: 1333px;
+	background-size: 100% auto;
+}
+
+body {
+	background: none;
+}
