@@ -49,17 +49,16 @@
 		<title>Max Halleran Portfolio</title>
 	</head>
 
-	<body>
-		<div class="image1"></div>
+	<body class="parallax">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-12">
 					<div class="media">
-						<img id="rando" src="IMG/FloatingCity.png" alt="Fly Away"/>
-						<img src="IMG/BikeWheel.png" alt="Spin"/>
-						<img src="IMG/LeftArrow.png" alt="This Way"/>
-						<img src="IMG/RightArrow.png" alt="That Way"/>
+						<img id="rando" src="images/FloatingCity.png" alt="Fly Away"/>
+						<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
+						<img src="images/LeftArrow.png" alt="This Way"/>
+						<img src="images/RightArrow.png" alt="That Way"/>
 					</div>
 				</div>
 			</div>

@@ -9,15 +9,28 @@
 	background-color: transparent;
 }
 
-.image1
-{
-	background:URL("../../IMG/FloatingCity.png");
-	width:100px;
-	height:100px;
-}
-
 #rando {
 	display: block;
 	margin: auto;
 	width: 40%;
+}
+
+#rando2 {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url("/public_html/images/background1.jpg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
