@@ -28,5 +28,55 @@ body {
 #max {
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: 30%;
+}
+
+#intromax {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+#description {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+#skills {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+#contactme {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+#contact-form {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url("../images/background1.jpg");
+
+	/* Set a specific height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	text-align: left;
+	font-family: sans-serif;
+	color: sandybrown;
 }

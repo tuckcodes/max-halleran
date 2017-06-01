@@ -35,7 +35,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="form-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -48,43 +48,53 @@
 
 	<body>
 
-
+		<div class="parallax">
 			<div class="container">
 
 				<div class="row">
 					<div class="col-md-12">
+						<h1>Max Halleran</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
 						<div class="media">
 							<div class="row text-center">
-								<img src="images/floatingcitycalgary.png" alt="Fly Away" id="rando"/>
 								<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
 								<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
 								<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
+								<img src="images/floatingcitycalgary.png" alt="Fly Away" id="rando"/>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
+		</div>
 
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row text-center">
-						<img src="images/intromax.png" alt="blurb" id="intromax"/>
 						<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+						<img src="images/intromax.png" alt="blurb" id="intromax"/>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-12"> Column Three: 12/12 columns, 100% of container width </div>
+				<div class="col-md-12">
+				<img src="images/maxdescription.png" alt="description" id="description">
+				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-12"> Column Four: 12/12 columns, 100% of container width </div>
+				<div class="col-md-12">
+					<img src="images/maxskills.png" alt="skills" id="skills">
+				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-6"> Column Five: 12/12 columns, 100% of container width
+				<div class="col-md-12">
+					<img src="images/contactme.png" alt="contact" id="contactme">
 					<div class="row text-center">
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
