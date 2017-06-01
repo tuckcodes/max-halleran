@@ -1,9 +1,6 @@
-#box-wrapper {
-	background-image: url("/public_html/images/background1.jpg");
-	width: 2000px;
-	height: 1333px;
+body {
+	background-color: sandybrown;
 }
-
 #rando {
 	display: block;
 	margin: auto;

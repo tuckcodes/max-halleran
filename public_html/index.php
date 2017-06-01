@@ -51,25 +51,29 @@
 
 	<body>
 
-		<div class="jumbotron" id="box-wrapper">
+
 			<div class="container">
 
 				<div class="row">
 					<div class="col-md-12">
 						<div class="media">
-							<img src="images/FloatingCity.png" alt="Fly Away" id="rando"/>
-							<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
-							<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
-							<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
+							<div class="row text-center">
+								<img src="images/FloatingCity.png" alt="Fly Away" id="rando"/>
+								<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
+								<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
+								<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+
 
 			<div class="row">
-				<div class="col-md-12"> Column Two: 12/12 columns, 100% of container width
-					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+				<div class="col-md-12">
+					<div class="row text-center">
+						<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+					</div>
 				</div>
 			</div>
 
@@ -82,7 +86,8 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-12"> Column Five: 12/12 columns, 100% of container width
+				<div class="col-md-6"> Column Five: 12/12 columns, 100% of container width
+					<div class="row text-center">
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
@@ -136,7 +141,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+				</div>
 	</div>
 
 	</body>
