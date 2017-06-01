@@ -68,7 +68,9 @@
 		</div>
 
 			<div class="row">
-				<div class="col-md-12"> Column Two: 12/12 columns, 100% of container width </div>
+				<div class="col-md-12"> Column Two: 12/12 columns, 100% of container width
+					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+				</div>
 			</div>
 
 			<div class="row">
