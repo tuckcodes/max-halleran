@@ -49,19 +49,23 @@
 		<title>Max Halleran Portfolio</title>
 	</head>
 
-	<body class="parallax">
-		<div class="container">
+	<body>
 
-			<div class="row">
-				<div class="col-md-12">
-					<div class="media">
-						<img id="rando" src="images/FloatingCity.png" alt="Fly Away"/>
-						<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
-						<img src="images/LeftArrow.png" alt="This Way"/>
-						<img src="images/RightArrow.png" alt="That Way"/>
+		<div class="jumbotron" id="box-wrapper">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="media">
+							<img src="images/FloatingCity.png" alt="Fly Away" id="rando"/>
+							<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
+							<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
+							<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<div class="row">
 				<div class="col-md-12"> Column Two: 12/12 columns, 100% of container width </div>

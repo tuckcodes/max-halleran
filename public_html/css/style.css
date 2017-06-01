@@ -1,12 +1,7 @@
-.background-image
-{
-	background-image: url(IMG/pexels-photo-24377.jpg);
-	background-repeat: repeat;
-}
-
-.body
-{
-	background-color: transparent;
+#box-wrapper {
+	background-image: url("/public_html/images/background1.jpg");
+	width: 2000px;
+	height: 1333px;
 }
 
 #rando {
@@ -18,12 +13,24 @@
 #rando2 {
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: 10%;
+}
+
+#leftarrow {
+	display: inline-block;
+	margin: auto;
+	width: 10%
+}
+
+#rightarrow {
+	display: inline-block;
+	margin: auto;
+	width: 10%
 }
 
 .parallax {
 	/* The image used */
-	background-image: url("/public_html/images/background1.jpg");
+	background-image: url(/public_html/images/background1.jpg);
 
 	/* Full height */
 	height: 100%;
