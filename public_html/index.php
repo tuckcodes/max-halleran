@@ -69,6 +69,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row text-center">
+						<img src="images/intromax.png" alt="blurb" id="intromax"/>
 						<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
 					</div>
 				</div>
