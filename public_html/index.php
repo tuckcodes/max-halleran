@@ -55,7 +55,7 @@
 					<div class="col-md-12">
 						<div class="media">
 							<div class="row text-center">
-								<img src="images/FloatingCity.png" alt="Fly Away" id="rando"/>
+								<img src="images/floatingcitycalgary.png" alt="Fly Away" id="rando"/>
 								<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
 								<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
 								<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
