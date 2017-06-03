@@ -53,17 +53,14 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<h1>Max Halleran</h1>
+						<img src="images/maxlogo.png" alt="maxlogo" id="maxlogo">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="media">
 							<div class="row text-center">
-								<img src="images/BikeWheel.png" alt="Spin" id="rando2"/>
-								<img src="images/LeftArrow.png" alt="This Way" id="leftarrow"/>
-								<img src="images/RightArrow.png" alt="That Way" id="rightarrow"/>
-								<img src="images/floatingcitycalgary.png" alt="Fly Away" id="rando"/>
+								<div class="col-md-12"><img src="images/floatingcitycalgary.png" id="city"/></div>
 							</div>
 						</div>
 					</div>
@@ -149,9 +146,18 @@
 						</div>
 					</div>
 				</div>
-				</div>
+			</div>
 	</div>
 
+	<div class="container">
+		<div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+			<div class="row">
+				<div class="col-md-4" id="moveright"><img src="images/LeftArrow.png" id="leftarrow"></div>
+				<div class="col-md-4"><img src="images/BikeWheel.png" id="bike"></div>
+				<div class="col-md-4" id="moveleft"><img src="images/RightArrow.png" id="rightarrow"></div>
+			</div>
+		</div>
+	</div>
 	</body>
 
 </html>
