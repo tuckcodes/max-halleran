@@ -53,7 +53,7 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<img src="images/maxlogo.png" alt="maxlogo" id="maxlogo">
+						<img src="images/maxlogo2.png" alt="maxlogo" id="maxlogo">
 					</div>
 				</div>
 				<div class="row">
@@ -152,9 +152,9 @@
 	<div class="container">
 		<div class="navbar navbar-default navbar-fixed-bottom" id="footer">
 			<div class="row">
-				<div class="col-md-4" id="moveright"><img src="images/LeftArrow.png" id="leftarrow"></div>
-				<div class="col-md-4"><img src="images/BikeWheel.png" id="bike"></div>
-				<div class="col-md-4" id="moveleft"><img src="images/RightArrow.png" id="rightarrow"></div>
+				<div class="col-md-4" id="moveright"><img src="images/LeftArrow.png" class="img.fluid" id="leftarrow"></div>
+				<div class="col-md-4"><img src="images/BikeWheel.png" class="img.fluid" id="bike"></div>
+				<div class="col-md-4" id="moveleft"><img src="images/RightArrow.png" class="img.fluid" id="rightarrow"></div>
 			</div>
 		</div>
 	</div>
