@@ -7,13 +7,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!-- Font Awesome -->
-		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+				rel="stylesheet"/>
 
 		<!-- Custom CSS Goes HERE -->
 		<link rel="stylesheet" href="css/waypoints-styles.caa.css" type="text/css">
@@ -30,9 +33,12 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="form-validate.js"></script>
@@ -41,7 +47,9 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				  crossorigin="anonymous"></script>
 
 		<title>Max Halleran Portfolio</title>
 	</head>
@@ -68,31 +76,31 @@
 			</div>
 		</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<div class="row text-center">
-						<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
-						<img src="images/intromax.png" alt="blurb" id="intromax"/>
-					</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row text-center">
+					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+					<img src="images/intromax.png" alt="blurb" id="intromax"/>
 				</div>
 			</div>
+		</div>
 
-			<div class="row">
-				<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-12">
 				<img src="images/maxdescription.png" alt="description" id="description">
-				</div>
 			</div>
+		</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<img src="images/maxskills.png" alt="skills" id="skills">
-				</div>
+		<div class="row">
+			<div class="col-md-12">
+				<img src="images/maxskills.png" alt="skills" id="skills">
 			</div>
+		</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<img src="images/contactme.png" alt="contact" id="contactme">
-					<div class="row text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="images/contactme.png" alt="contact" id="contactme">
+				<div class="row text-center">
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
@@ -101,7 +109,8 @@
 								<div class="input-group-addon">
 									<i class="fa fa-user" aria-hidden="true"></i>
 								</div>
-								<input class="form-control" type="text" class="form-control" id="txtName" name="txtName" placeholder="Name">
+								<input class="form-control" type="text" class="form-control" id="txtName" name="txtName"
+										 placeholder="Name">
 							</div>
 						</div>
 						<div class="form-group">
@@ -128,7 +137,8 @@
 								<div class="input-group-addon">
 									<i class="fa fa-comment" aria-hidden="true"></i>
 								</div>
-								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
 							</div>
 						</div>
 
@@ -147,17 +157,20 @@
 					</div>
 				</div>
 			</div>
-	</div>
-
-	<div class="container">
-		<div class="navbar navbar-default navbar-fixed-bottom" id="footer">
-			<div class="row">
-				<div class="col-md-4" id="moveright"><img src="images/LeftArrow.png" class="img.fluid" id="leftarrow"></div>
-				<div class="col-md-4"><img src="images/BikeWheel.png" class="img.fluid" id="bike"></div>
-				<div class="col-md-4" id="moveleft"><img src="images/RightArrow.png" class="img.fluid" id="rightarrow"></div>
-			</div>
 		</div>
-	</div>
+
+
+		<footer class="fixed-to-bottom" id="footer">
+			<div class="container">
+				<div class="row">
+					<span class="text-muted">
+						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive" id="leftarrow"></div>
+						<div class="col-sm-4"><button class="btn btn-default" id="button"><a id="click"></a><img src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
+						<div class="col-sm-4" id="moveleft"><img src="images/RightArrow.png" class="img.responsive" id="rightarrow"></div>
+					</span>
+				</div>
+			</div>
+		</footer>
 	</body>
 
 </html>
