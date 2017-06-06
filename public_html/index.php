@@ -69,7 +69,7 @@
 		<div class="parallax">
 			<div class="container-fluid">
 
-				<div class="row">
+				<div class="row" id="waypoint-top">
 					<div class="col-md-12">
 						<img src="images/maxlogo2.png" alt="maxlogo" id="maxlogo">
 					</div>
