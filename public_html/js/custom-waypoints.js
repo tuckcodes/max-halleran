@@ -24,33 +24,33 @@ $(document).ready(function() {
 		$(".waypoint").addClass("opacity-0");
 
 		// section 1
-		$("#section1").waypoint(function() {
+		$("#waypoint-1").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#section1").removeClass("opacity-0").addClass("fadeInLeft");
+			$("#waypoint-1").removeClass("opacity-0").addClass("bounceInUp");
 		}, {offset: "50%"});
 
 		// section 2
-		$("#section2").waypoint(function() {
+		$("#waypoint-2").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#section2").removeClass("opacity-0").addClass("fadeInRight");
+			$("#waypoint-2").removeClass("opacity-0").addClass("fadeInRight");
 		}, {offset: "50%"});
 
 		// section 3
-		$("#section3").waypoint(function() {
+		$("#waypoint-3").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#section3").removeClass("opacity-0").addClass("fadeInLeft");
+			$("#waypoint-3").removeClass("opacity-0").addClass("fadeInLeft");
 		}, {offset: "50%"});
 
 		// section 4/instructions
-		$("#section4").waypoint(function() {
+		$("#waypoint-4").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#section4").removeClass("opacity-0").addClass("bounceInUp");
+			$("#waypoint-4").removeClass("opacity-0").addClass("bounceInUp");
 		}, {offset: "50%"});
 
 		// contact
-		$("#section5").waypoint(function() {
+		$("#waypoint-5").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#section5").removeClass("opacity-0").addClass("rubberBand");
+			$("#waypoint-5").removeClass("opacity-0").addClass("fadeInRight");
 		}, {offset: "100%"});
 
 

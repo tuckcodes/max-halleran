@@ -18,6 +18,9 @@
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
 				rel="stylesheet"/>
 
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+
 		<!-- Custom CSS Goes HERE -->
 		<link rel="stylesheet" href="css/waypoints-styles.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
@@ -56,6 +59,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
 
 		<title>Max Halleran Portfolio</title>
 	</head>
@@ -72,113 +76,122 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div id="section1" class="animated waypoint">
+						<div id="waypoint-1" class="animated">
 							<img src="images/floatingcitycalgary.png" id="city"/>
-						<div>
-					</div>
-				</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row text-center">
-					<div id="section2" class="animated waypoint text-right">
-					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
-					<img src="images/intromax.png" alt="blurb" id="intromax"/>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<div id="section3" class="animated waypoint">
-				<img src="images/maxdescription.png" alt="description" id="description">
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<div id="section4" class="animated waypoint">
-				<img src="images/maxskills.png" alt="skills" id="skills">
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12" id="section5">
-				<img src="images/contactme.png" alt="contact" id="contactme">
-				<div class="row text-center">
-					<!--Begin Contact Form-->
-					<form id="contact-form" action="php/mailer.php" method="post">
-						<div class="form-group">
-							<label for="name">Name <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</div>
-								<input class="form-control" type="text" class="form-control" id="txtName" name="txtName"
-										 placeholder="Name">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="email">Email <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="subject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="message">Message <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-comment" aria-hidden="true"></i>
-								</div>
-								<textarea class="form-control" rows="5" id="message" name="message"
-											 placeholder="Message (2000 characters max)"></textarea>
+							<div>
 							</div>
 						</div>
 
-						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="6LfuxCMUAAAAAMFnHLmm3rUtZHWvclK0Kka336bq"></div>
-
-						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</form>
-
-					<!--empty area for form error/success output-->
-					<div class="row">
-						<div class="col-xs-12">
-							<div id="output-area"></div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row text-center">
+									<div id="waypoint-2" class="animated waypoint text-right">
+										<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+										<img src="images/intromax.png" alt="blurb" id="intromax"/>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<div id="waypoint-3" class="animated waypoint">
+									<img src="images/maxdescription.png" alt="description" id="description">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<div id="waypoint-4" class="animated waypoint">
+									<img src="images/maxskills.png" alt="skills" id="skills">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<div id="waypoint-5" class="animated waypoint text-right">
+									<img src="images/contactme.png" alt="contact" id="contactme">
+								</div>
+								<div class="row text-center">
+									<!--Begin Contact Form-->
+									<form id="contact-form" action="php/mailer.php" method="post">
+										<div class="form-group">
+											<label for="name">Name <span class="text-danger">*</span></label>
+											<div class="input-group">
+												<div class="input-group-addon">
+													<i class="fa fa-user" aria-hidden="true"></i>
+												</div>
+												<input class="form-control" type="text" class="form-control" id="txtName"
+														 name="txtName"
+														 placeholder="Name">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="email">Email <span class="text-danger">*</span></label>
+											<div class="input-group">
+												<div class="input-group-addon">
+													<i class="fa fa-envelope" aria-hidden="true"></i>
+												</div>
+												<input type="email" class="form-control" id="email" name="email"
+														 placeholder="Email">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="subject">Subject</label>
+											<div class="input-group">
+												<div class="input-group-addon">
+													<i class="fa fa-pencil" aria-hidden="true"></i>
+												</div>
+												<input type="text" class="form-control" id="subject" name="subject"
+														 placeholder="Subject">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="message">Message <span class="text-danger">*</span></label>
+											<div class="input-group">
+												<div class="input-group-addon">
+													<i class="fa fa-comment" aria-hidden="true"></i>
+												</div>
+												<textarea class="form-control" rows="5" id="message" name="message"
+															 placeholder="Message (2000 characters max)"></textarea>
+											</div>
+										</div>
+
+										<!-- reCAPTCHA -->
+										<div class="g-recaptcha" data-sitekey="6LfuxCMUAAAAAMFnHLmm3rUtZHWvclK0Kka336bq"></div>
+
+										<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send
+										</button>
+										<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+									</form>
+
+									<!--empty area for form error/success output-->
+									<div class="row">
+										<div class="col-xs-12">
+											<div id="output-area"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 
-		<footer class="fixed-to-bottom" id="footer">
-			<div class="container-fluid">
-				<div class="row">
+						<footer class="fixed-to-bottom" id="footer">
+							<div class="container-fluid">
+								<div class="row">
 					<span class="text-muted">
-						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive" id="leftarrow"></div>
-						<div class="col-sm-4"><button class="button" id="button"><a id="click"></a><img src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
-						<div class="col-sm-4" id="moveleft"><img src="images/RightArrow.png" class="img.responsive" id="rightarrow"></div>
+						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive"
+																				id="leftarrow"></div>
+						<div class="col-sm-4"><button class="button" id="button"><a id="click"></a><img
+									src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
+						<div class="col-sm-4" id="moveleft"><img src="images/RightArrow.png" class="img.responsive"
+																			  id="rightarrow"></div>
 					</span>
-				</div>
-			</div>
-		</footer>
+								</div>
+							</div>
+						</footer>
 	</body>
 
 </html>
