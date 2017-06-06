@@ -65,7 +65,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" id="section1">
 						<div class="media">
 							<div class="row text-center">
 								<div class="col-md-12"><img src="images/floatingcitycalgary.png" id="city"/></div>
@@ -77,7 +77,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" id="section2">
 				<div class="row text-center">
 					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
 					<img src="images/intromax.png" alt="blurb" id="intromax"/>
@@ -86,19 +86,19 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" id="section3">
 				<img src="images/maxdescription.png" alt="description" id="description">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" id="section4">
 				<img src="images/maxskills.png" alt="skills" id="skills">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" id="section5">
 				<img src="images/contactme.png" alt="contact" id="contactme">
 				<div class="row text-center">
 					<!--Begin Contact Form-->
@@ -165,7 +165,7 @@
 				<div class="row">
 					<span class="text-muted">
 						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive" id="leftarrow"></div>
-						<div class="col-sm-4"><button class="btn btn-default" id="button"><a id="click"></a><img src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
+						<div class="col-sm-4"><button class="button" id="button"><a id="click"></a><img src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
 						<div class="col-sm-4" id="moveleft"><img src="images/RightArrow.png" class="img.responsive" id="rightarrow"></div>
 					</span>
 				</div>

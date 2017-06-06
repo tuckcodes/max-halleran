@@ -1,9 +1,12 @@
 /**
  * Created by Emily Rose on 5/31/2017.
  */
-$(function() {
-	$("#button").on("click", function() {
-		$("body").animate({"scrollTop": window.scrollY-300}, 1000);
-		return false;
+$(document).ready(function() {
+	var count = 0
+	var links = ["#section1", "section2", "section3", "section4", "section5"]
+	$("#button").click(function(event){
+		count += 1
+		$('html, body').animate({scrollIntoView: links[count]},800);
 	});
 });
+

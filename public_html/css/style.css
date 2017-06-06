@@ -135,9 +135,9 @@ h2 {
 	left:0%;
 }
 
-.button {
+#button {
 	border: none;
-	background-color: #00a0aa;
+	background-color: transparent;
 	outline: none;
 
 }
