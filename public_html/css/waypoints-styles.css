@@ -1,0 +1,17 @@
+/***
+* These styles are relevant to the demo functionality.
+***/
+/* prevents pesky horizontal scrollbar as elements are animated into view */
+body {
+	overflow-x: hidden;
+}
+
+/* overrides default Animate.css animation duration */
+.animated {
+	animation-duration: 1.25s;
+}
+
+/* for hiding the waypoint content sections */
+.opacity-0 {
+	opacity: 0;
+}

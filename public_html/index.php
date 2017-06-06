@@ -19,7 +19,7 @@
 				rel="stylesheet"/>
 
 		<!-- Custom CSS Goes HERE -->
-		<link rel="stylesheet" href="css/waypoints-styles.caa.css" type="text/css">
+		<link rel="stylesheet" href="css/waypoints-styles.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -57,7 +57,7 @@
 	<body>
 
 		<div class="parallax">
-			<div class="container">
+			<div class="container-fluid">
 
 				<div class="row">
 					<div class="col-md-12">
@@ -161,7 +161,7 @@
 
 
 		<footer class="fixed-to-bottom" id="footer">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<span class="text-muted">
 						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive" id="leftarrow"></div>
