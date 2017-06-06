@@ -46,6 +46,12 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
+		<!-- Waypoints.js -->
+		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+
+		<!-- Custom Waypoints JavaScript File -->
+		<script src="js/custom-waypoints.js" type="text/javascript"></script>
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -65,35 +71,37 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12" id="section1">
-						<div class="media">
-							<div class="row text-center">
-								<div class="col-md-12"><img src="images/floatingcitycalgary.png" id="city"/></div>
-							</div>
-						</div>
+					<div class="col-md-12">
+						<div id="section1" class="animated waypoint">
+							<img src="images/floatingcitycalgary.png" id="city"/>
+						<div>
+					</div>
+				</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row text-center">
+					<div id="section2" class="animated waypoint text-right">
+					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+					<img src="images/intromax.png" alt="blurb" id="intromax"/>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-12" id="section2">
-				<div class="row text-center">
-					<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
-					<img src="images/intromax.png" alt="blurb" id="intromax"/>
+			<div class="col-md-12">
+				<div id="section3" class="animated waypoint">
+				<img src="images/maxdescription.png" alt="description" id="description">
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-12" id="section3">
-				<img src="images/maxdescription.png" alt="description" id="description">
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12" id="section4">
+			<div class="col-md-12">
+				<div id="section4" class="animated waypoint">
 				<img src="images/maxskills.png" alt="skills" id="skills">
+				</div>
 			</div>
 		</div>
 
