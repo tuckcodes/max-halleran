@@ -26,7 +26,7 @@ $(document).ready(function() {
 		// section 1
 		$("#waypoint-1").waypoint(function() {
 			// remove opacity-0 class, add Animate.css class to animate into view
-			$("#waypoint-1").removeClass("opacity-0").addClass("bounceInUp");
+			$("#waypoint-1").removeClass("opacity-0").addClass("fadeInUp");
 		}, {offset: "50%"});
 
 		// section 2

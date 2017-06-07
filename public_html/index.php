@@ -74,13 +74,14 @@
 						<img src="images/maxlogo2.png" alt="maxlogo" id="maxlogo">
 					</div>
 				</div>
+
 				<div class="row">
 					<div class="col-md-12">
-						<div id="waypoint-1" class="animated">
+						<div id="waypoint-1" class="animated waypoint text-right">
 							<img src="images/floatingcitycalgary.png" id="city"/>
-							<div>
-							</div>
-						</div>
+						<div>
+					</div>
+				</div>
 
 						<div class="row">
 							<div class="col-md-12">
@@ -177,6 +178,13 @@
 							</div>
 						</div>
 
+						<div class="container-fluid">
+							<div class="row" id="waypoint-bottom">
+								<div class="col-md-12">
+									<h2>Thank You!</h2>
+								</div>
+							</div>
+						</div>
 
 						<footer class="fixed-to-bottom" id="footer">
 							<div class="container-fluid">
