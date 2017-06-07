@@ -178,23 +178,15 @@
 							</div>
 						</div>
 
-						<div class="container-fluid">
-							<div class="row" id="waypoint-bottom">
-								<div class="col-md-12">
-									<h2>Thank You!</h2>
-								</div>
-							</div>
-						</div>
-
 						<footer class="fixed-to-bottom" id="footer">
 							<div class="container-fluid">
 								<div class="row">
 					<span class="text-muted">
-						<div class="col-sm-4" id="moveright"><img src="images/LeftArrow.png" class="img.responsive"
+						<div class="col-md-4 col-sm-4 hidden-xs" id="moveright"><img src="images/LeftArrow.png" class="img.responsive"
 																				id="leftarrow"></div>
-						<div class="col-sm-4"><button class="button" id="button"><a id="click"></a><img
+						<div class="col-md-4 col-sm-4 col-xs-12"><button class="button" id="button"><a id="click"></a><img
 									src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
-						<div class="col-sm-4" id="moveleft"><img src="images/RightArrow.png" class="img.responsive"
+						<div class="col-md-4 col-sm-4 hidden-xs" id="moveleft"><img src="images/RightArrow.png" class="img.responsive"
 																			  id="rightarrow"></div>
 					</span>
 								</div>

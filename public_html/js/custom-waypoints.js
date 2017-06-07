@@ -53,6 +53,5 @@ $(document).ready(function() {
 			$("#waypoint-5").removeClass("opacity-0").addClass("fadeInRight");
 		}, {offset: "100%"});
 
-
 	}// end if condition
 });// end document.ready()

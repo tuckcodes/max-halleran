@@ -74,7 +74,7 @@ body {
 	background-image: url("../images/background1.jpg");
 
 	/* Set a specific height */
-	height: 575px;
+	height: 100vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -120,7 +120,7 @@ h2 {
 	transition: transform .2s ease-in-out;
 }
 #moveleft:hover {
-	transform: translate3d(-100px, 0px, 0px);
+	transform: translate3d(-20%, 0px, 0px);
 }
 
 #moveright {
@@ -128,7 +128,7 @@ h2 {
 	transition: transform .2s ease-in-out;
 }
 #moveright:hover {
-	transform: translate3d(100px, 0px, 0px);
+	transform: translate3d(20%, 0px, 0px);
 }
 
 #footer {
@@ -151,14 +151,6 @@ h2 {
 	background-color: transparent;
 	outline: none;
 
-}
-
-#waypoint-bottom {
-	font-family: sans-serif;
-	margin-top: 25%;
-	margin-bottom: 60%;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 
