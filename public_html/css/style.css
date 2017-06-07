@@ -93,7 +93,6 @@ h2 {
 	display: block;
 	height: 15%;
 	width: 15%;
-	margin: 0% 50% 0% 50%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -120,7 +119,7 @@ h2 {
 	transition: transform .2s ease-in-out;
 }
 #moveleft:hover {
-	transform: translate3d(-20%, 0px, 0px);
+	transform: translate3d(-25%, 0px, 0px);
 }
 
 #moveright {
@@ -128,7 +127,7 @@ h2 {
 	transition: transform .2s ease-in-out;
 }
 #moveright:hover {
-	transform: translate3d(20%, 0px, 0px);
+	transform: translate3d(25%, 0px, 0px);
 }
 
 #footer {

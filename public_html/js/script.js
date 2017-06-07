@@ -1,6 +1,7 @@
 /**
  * Created by Emily Rose on 5/31/2017.
  */
+//javascript loop to count clicks and scroll to specific divs on click
 $(document).ready(function() {
 	var count = 0;
 	var links = ["#waypoint-1", "#waypoint-2", "#waypoint-3", "#waypoint-4", "#waypoint-5", "#waypoint-top"];
@@ -18,8 +19,8 @@ $(document).ready(function() {
 		if(count === 6) {
 			count = 0;
 		}
-	});
-});
+	}); //end if condition
+}); //end document ready
 
 
 
