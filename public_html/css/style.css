@@ -149,7 +149,22 @@ h2 {
 	border: none;
 	background-color: transparent;
 	outline: none;
-
 }
+
+@media (max-width: 978px) {
+	.container-fluid {
+		padding: 0;
+		margin: 0;
+		margin-left:-20px;
+		margin-right:-20px;
+	}}
+
+	@media (max-width: 480px) {
+		.container-fluid {
+			padding: 0;
+			margin: 0;
+			margin-left:-20px;
+			margin-right:-20px;
+	}}
 
 
