@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -70,12 +70,14 @@
 		<div class="parallax">
 			<div class="container-fluid">
 
+				<!--top logo with name in top left of top background image-->
 				<div class="row" id="waypoint-top">
 					<div class="col-md-12">
 						<img src="images/maxlogo2.png" alt="maxlogo" id="maxlogo">
 					</div>
 				</div>
 
+				<!--graphic of portrait and intro that will come into page through animation on click-scroll-->
 				<div class="row">
 					<div class="col-md-12">
 						<div class="row text-center">
@@ -87,6 +89,7 @@
 					</div>
 				</div>
 
+				<!--graphic depicting city that will come into page through animation on click-scroll-->
 				<div class="row">
 					<div class="col-md-12">
 						<div id="waypoint-2" class="animated waypoint text-right">
@@ -95,6 +98,7 @@
 							</div>
 						</div>
 
+						<!--graphic depicting description that will come into page through animation on click-scroll-->
 						<div class="row">
 							<div class="col-md-12">
 								<div id="waypoint-3" class="animated waypoint">
@@ -103,6 +107,7 @@
 							</div>
 						</div>
 
+						<!--graphic listing skills that comes into page through animation on click-scroll-->
 						<div class="row">
 							<div class="col-md-12">
 								<div id="waypoint-4" class="animated waypoint">
@@ -111,6 +116,7 @@
 							</div>
 						</div>
 
+						<!--contact me graphic that slides in above form-->
 						<div class="row">
 							<div class="col-md-12">
 								<div id="waypoint-5" class="animated waypoint text-right">
@@ -179,16 +185,19 @@
 							</div>
 						</div>
 
+						<!--footer to have button that triggers incremental scroll to div waypoiints-->
 						<footer class="fixed-to-bottom" id="footer">
 							<div class="container-fluid">
 								<div class="row">
 					<span class="text-muted">
-						<div class="col-md-4 col-sm-4 hidden-xs" id="moveright"><img src="images/LeftArrow.png" class="img.responsive"
-																				id="leftarrow"></div>
+						<div class="col-md-4 col-sm-4 hidden-xs" id="moveright"><img src="images/LeftArrow.png"
+																										 class="img.responsive"
+																										 id="leftarrow"></div>
 						<div class="col-md-4 col-sm-4 col-xs-12"><button class="button" id="button"><a id="click"></a><img
 									src="images/BikeWheel.png" class="img.responsive" id="bike"></button></div>
-						<div class="col-md-4 col-sm-4 hidden-xs" id="moveleft"><img src="images/RightArrow.png" class="img.responsive"
-																			  id="rightarrow"></div>
+						<div class="col-md-4 col-sm-4 hidden-xs" id="moveleft"><img src="images/RightArrow.png"
+																										class="img.responsive"
+																										id="rightarrow"></div>
 					</span>
 								</div>
 							</div>
