@@ -3,13 +3,13 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-#city {
+#max {
 	display: block;
 	margin-top: 55%;
-	margin-bottom: 55%;
+	margin-bottom: 0%;
 	margin-right: auto;
 	margin-left: auto;
-	width: 55%;
+	width: 30%;
 }
 
 #leftarrow {
@@ -24,11 +24,11 @@ body {
 	width: 20%
 }
 
-#max {
+#city {
 	display: block;
 	margin: auto;
 	margin-top: 5%;
-	width: 30%;
+	width: 40%;
 }
 
 #intromax {

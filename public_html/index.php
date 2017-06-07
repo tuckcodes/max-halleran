@@ -77,20 +77,20 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<div id="waypoint-1" class="animated waypoint text-right">
-							<img src="images/floatingcitycalgary.png" id="city"/>
-						<div>
+						<div class="row text-center">
+							<div id="waypoint-1" class="animated waypoint text-right">
+								<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
+								<img src="images/intromax.png" alt="blurb" id="intromax"/>
+							</div>
+						</div>
 					</div>
 				</div>
 
-						<div class="row">
-							<div class="col-md-12">
-								<div class="row text-center">
-									<div id="waypoint-2" class="animated waypoint text-right">
-										<img src="images/MaxRedBrickCircle.png" alt="Max" id="max"/>
-										<img src="images/intromax.png" alt="blurb" id="intromax"/>
-									</div>
-								</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="waypoint-2" class="animated waypoint text-right">
+							<img src="images/floatingcitycalgary.png" id="city"/>
+							<div>
 							</div>
 						</div>
 
