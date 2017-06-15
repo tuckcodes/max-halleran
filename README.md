@@ -39,3 +39,26 @@ correct: `<html lang="en">`
 
 ## Milestone 2b Feedback
 Right now, given what you have I can only count this Miestone at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please check in with me daily re: your development progress. I am happy to bump this score up as you complete more work.
+
+## Milestone 3 / Final PWP Evaluation
+Wow - this looks amazing! Excellent work on this project - you tackled some ambitious design challenges and implemented them well.
+
+Unfortunately this still needs some work on the mobile view - it's a little wonky and doesn't quite look right. I think making adjustments to the Bootstrap grid might be all you need to get it right.
+
+Unfortunately your contact form isn't working, and I'm getting a 500 error in devtools. Oftentimes this is just a matter of running `composer install` on A2. If that doesn't solve it, check that all your files are uploaded and our directory structure is correct. I also see a bunch of form code in your **form-validate.js** file - this could be causing issues as well and needs to be deleted. If you want some help debugging this, send me a message on Slack.
+
+Overall, very nice work here. Continue to refine your layout for a professional polish on the mobile view, and get the form working. You have front end talent, so keep building! 
+
+Your Milestone 3/Final Delivery for PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [27/40 points (67.5%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier IV 40(0.2) = 8
+- Milestone 2b - 10%: Tier I 10(0.1) = 1
+- Milestone 3 - 50%: Tier  II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+- Remove the form code from **form-validate.js**
+- You might want to delete the console.log on line 8 in custom.js as well and replace it with a cheeky easter egg message for the console output :D
+- refine your grid structure for better mobile layout. Be careful about inserting rows within rows and containers inside containers... this can cause grid grief.
